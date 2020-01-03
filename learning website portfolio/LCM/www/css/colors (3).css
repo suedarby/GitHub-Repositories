@@ -1,0 +1,52 @@
+/* color reference 
+   #591E23; burgundy backgrounds
+   #D94E67; muted fucia
+   #F2D8A7; light tan text
+   #A68572; darker tan
+   #73503C; brown
+   #FFFFFF; white
+   #000000; black */
+
+
+ /* works */
+ h1 {
+text-align: center;   color: #F2D8A7;/*tan*/
+
+ }
+ /* works*/
+h3 {
+    text-align: center;
+   color: #F2D8A7; /*tan*/
+
+}
+
+.header {
+     background-color: #591E23;
+    }
+
+
+.logo {
+  margin: 8px;
+  padding: 5px;
+  width: 117px;
+  height: 106px;
+
+}
+
+nav {
+  background-color:   #561E23;
+}
+ footer {
+	float: left;
+	text-align: center;
+    background: #591E23; /* burgundy*/
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+padding-bottom: 10px;
+clear: both;
+ }
+footer.copyright {
+   color: #F2D8A7; /* tan*/
+ }

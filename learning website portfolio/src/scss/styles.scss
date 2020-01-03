@@ -1,0 +1,47 @@
+$bg-color: blue;
+
+body {
+    background: $bg-color;
+}
+/*submenu styles including drop up and drop down*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.dropup-submenu {
+    position: relative;
+}
+
+.dropup-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+/*font change for navbar-brand*/
+.navbar-brand{
+   font-family: 'Arizonia', cursive;
+   font-size: x-large;
+}
+/*name at top*/
+.suedarby{
+    font-family: 'Arizonia', cursive;
+    font-size: x-large;
+ }
+/*tag line at top*/
+ .suedarbylg{
+    font-family: 'Arizonia', cursive;
+    font-size: 72px;
+ }
+ /*experience accordion*/
+ .experience {
+     background-color: #e9ecef;
+ }
+
+.bs-example{
+	margin: 30px;
+}
